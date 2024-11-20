@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Indie+Flower&display=swap");
+
+html,
+body {
+  margin: auto;
+  padding: 0;
+  background-color: #626fdf;
+  font-family: "DynaPuff";
+}
+canvas {
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+button {
+  font-family: "dongle", sans-serif;
+  background-color: #bfddec;
+  color: #626fdf;
+  font-weight: 600;
+  border: 1px solid red;
+}
+
+#button-holder {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+}
+
+.banner {
+  padding: 5px;
+  letter-spacing: 25px;
+  font-size: 200%;
+  text-align: CENTER;
+  margin: auto;
+
+  color: white;
+}
+
+.user-interface {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  gap: 5%;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+}
+
+#more-info {
+  margin-top: 20px;
+  height: auto;
+  color: white;
+}
